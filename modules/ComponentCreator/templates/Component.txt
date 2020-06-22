@@ -1,0 +1,13 @@
+import React from "react";
+import useStyles from "./$$name$$.css";
+
+export const $$name$$ = () => {
+  const classes = useStyles();
+  return (
+    <>
+
+    </>
+  );
+};
+
+export default $$name$$;
