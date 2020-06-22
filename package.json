@@ -15,7 +15,8 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:componentautocreatorjs.createComponent"
+		"onCommand:componentautocreatorjs.createComponent",
+		"onCommand:componentautocreatorjs.createIndex"
 	],
 	"main": "./extension.js",
 	"contributes": {
@@ -23,6 +24,10 @@
 			{
 				"command": "componentautocreatorjs.createComponent",
 				"title": "Create Component"
+			},
+			{
+				"command": "componentautocreatorjs.createIndex",
+				"title": "Create Index"
 			}
 		],
 		"keybindings": [
@@ -30,6 +35,11 @@
 				"command": "componentautocreatorjs.createComponent",
 				"key": "ctrl+e",
 				"when": "explorerResourceIsFolder"
+			},
+			{
+				"command": "componentautocreatorjs.createIndex",
+				"key": "ctrl+t",
+				"when": "filesExplorerFocus"
 			}
 		]
 	},
