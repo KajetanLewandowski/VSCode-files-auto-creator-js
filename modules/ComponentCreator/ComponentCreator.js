@@ -43,7 +43,7 @@ const createComponent = async () => {
     "Styles",
     selectedDirectory,
     componentName,
-    `${componentName}.css.ts`
+    `${componentName}.css.tsx`
   );
 };
 
