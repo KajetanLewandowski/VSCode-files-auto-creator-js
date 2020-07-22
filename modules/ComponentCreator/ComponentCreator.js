@@ -36,14 +36,14 @@ const createComponent = async () => {
     "Component",
     selectedDirectory,
     componentName,
-    `${componentName}.js`
+    `${componentName}.tsx`
   );
-  createFile("Index", selectedDirectory, componentName, `index.js`);
+  createFile("Index", selectedDirectory, componentName, `index.ts`);
   createFile(
     "Styles",
     selectedDirectory,
     componentName,
-    `${componentName}.css.js`
+    `${componentName}.css.ts`
   );
 };
 

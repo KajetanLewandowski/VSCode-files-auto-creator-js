@@ -44,7 +44,7 @@ const createIndex = async () => {
   vscode.window.showInformationMessage(
     `Creating index.js in ${componentName} started`
   );
-  createFile("Index", selectedDirectory, componentName, `index.js`);
+  createFile("Index", selectedDirectory, componentName, `index.ts`);
 };
 
 module.exports = {
