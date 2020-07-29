@@ -1,7 +1,7 @@
-interface $$name$$PropsModel {
+export interface $$name$$PropsModel {
 
 }
 
-interface $$name$$StateModel {
+export interface $$name$$StateModel {
 
 }
