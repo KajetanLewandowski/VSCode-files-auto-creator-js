@@ -45,6 +45,12 @@ const createComponent = async () => {
     componentName,
     `${componentName}.css.tsx`
   );
+  createFile(
+    "Types",
+    selectedDirectory,
+    componentName,
+    `${componentName}.d.ts`
+  );
 };
 
 module.exports = {

@@ -1,11 +1,12 @@
-import React from "react";
-import useStyles from "./$$name$$.css";
+import React from 'react';
+import useStyles from './$$name$$.css';
+import { $$name$$PropsModel, $$name$$StateModel } from './$$name$$.d';
 
-export const $$name$$ = () => {
+export const $$name$$: React.FunctionComponent<$$name$$PropsModel> = ({}) => {
   const classes = useStyles();
   return (
     <>
-
+      <div className={classes.$$name$$}></div>
     </>
   );
 };

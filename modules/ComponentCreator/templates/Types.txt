@@ -1,0 +1,7 @@
+interface $$name$$PropsModel {
+
+}
+
+interface $$name$$StateModel {
+
+}
